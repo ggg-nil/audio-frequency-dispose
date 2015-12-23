@@ -1,0 +1,7 @@
+terminal parameter：
+    1： src_file.pcm
+    2:  dst_file.pcm
+    3:  sample bits(8 or 16)
+    4:  raise level(+ for up, - for down, unit 25%)
+    
+    eg； pcm_volume_ctl src.pcm dst.pcm 16 3
