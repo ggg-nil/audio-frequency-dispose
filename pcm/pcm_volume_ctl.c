@@ -365,7 +365,7 @@ int main (int argc, char* argv[])
     
     pcm_device_init(fpr, fpw, (const pcm_io_func*)&pcm_read, (const pcm_io_func*)&pcm_write);
     
-    pcm_nature_set (1, argv[3], 1);
+    pcm_nature_set (1, atoi(argv[3]), 1);
     
     pcm_cache_set (buf_cache, 10);
     pcm_vol_process_loop_obtuse(atoi(argv[4]));
